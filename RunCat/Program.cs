@@ -93,6 +93,14 @@ namespace RunCat
                 new ToolStripMenuItem("Horse", null, SetRunner)
                 {
                     Checked = runner.Equals("horse")
+                },
+                new ToolStripMenuItem("Gaming Cat", null, SetRunner)
+                {
+                    Checked = runner.Equals("gaming_cat")
+                },
+                new ToolStripMenuItem("Party Parrot", null, SetRunner)
+                {
+                    Checked = runner.Equals("party_parrot")
                 }
             });
 
@@ -213,7 +221,7 @@ namespace RunCat
             ResourceManager rm = Resources.ResourceManager;
             // default runner is cat
             int capacity = 5;
-            if (runner.Equals("parrot"))
+            if (runner.Equals("parrot") || runner.Equals("party_parrot"))
             {
                 capacity = 10;
             } 
@@ -224,7 +232,16 @@ namespace RunCat
             List<Icon> list = new List<Icon>(capacity);
             for (int i = 0; i < capacity; i++)
             {
-                list.Add((Icon)rm.GetObject($"{prefix}_{runner}_{i}"));
+                if (runner.Equals("party_parrot") || runner.Equals("gaming_cat"))
+                {
+                    // Use the runner name directly for these cases
+                    list.Add((Icon)rm.GetObject($"{runner}_{i}"));
+                }
+                else
+                {
+                    // For other runners, use the prefix
+                    list.Add((Icon)rm.GetObject($"{prefix}_{runner}_{i}"));
+                }
             }
             icons = list.ToArray();
         }
@@ -242,8 +259,23 @@ namespace RunCat
         {
             ToolStripMenuItem item = (ToolStripMenuItem)sender;
             UpdateCheckedState(item, runnerMenu);
-            runner = item.Text.ToLower();
+            string selectedRunner = item.Text.ToLower();
+
+            if (selectedRunner.Equals("party parrot"))
+            {
+                runner = "party_parrot";
+            }
+            else if (selectedRunner.Equals("gaming cat"))
+            {
+                runner = "gaming_cat";
+            }
+            else
+            {
+                runner = selectedRunner;
+            }
             SetIcons();
+            UserSettings.Default.Runner = runner;
+            UserSettings.Default.Save();
         }
 
         private void SetThemeIcons(object sender, EventArgs e)

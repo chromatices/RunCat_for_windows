@@ -611,5 +611,142 @@ namespace RunCat.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        internal static System.Drawing.Icon party_parrot_0 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_0", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        internal static System.Drawing.Icon party_parrot_1 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_1", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_2 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_2", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_3 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_3", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }   
+
+        internal static System.Drawing.Icon party_parrot_4 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_4", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_5 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_5", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_6 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_6", resourceCulture);
+                return (System.Drawing.Icon)obj;    
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_7 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_7", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_8 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_8", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon party_parrot_9 {
+            get {
+                object obj = ResourceManager.GetObject("party_parrot_9", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+        internal static System.Drawing.Icon gaming_cat_0 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_0", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_1 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_1", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_2 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_2", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_3 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_3", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_4 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_4", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_5 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_5", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_6 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_6", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_7 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_7", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_8 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_8", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
+
+        internal static System.Drawing.Icon gaming_cat_9 {
+            get {
+                object obj = ResourceManager.GetObject("gaming_cat_9", resourceCulture);
+                return (System.Drawing.Icon)obj;
+            }
+        }
     }
 }
